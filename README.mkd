@@ -1,0 +1,37 @@
+Mass data generator for Tuleap
+==============================
+
+This scripts is used to generate lot of dummy data in order to test performances of various web ui.
+
+It will create a release with sprints and stories, each stories breaken down in tasks.
+
+Usage
+-----
+
+- Download/Clone this repository
+- Install dependencies
+  ```sh
+  php composer.phar install
+  ```
+- Create a project, and instantiate an agile dashboard
+- Edit the script `mass_artifact_creator.php` and adapt the following to your setup:
+  -  The server of your Tuleap instance
+  - The number of data
+  - The project
+  - Your credentials
+
+Then launch the script:
+
+```sh
+php mass_artifact_creator.php
+```
+
+> **Note:** Beware of number of artifacts you are creating, it may take a loooong time.
+> (On my workstation, 400ms is necessary to create one artifact).
+
+License
+-------
+
+GPLv2.
+
+Contributions welcomed.
