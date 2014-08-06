@@ -1,7 +1,7 @@
 Mass data generator for Tuleap
 ==============================
 
-This scripts is used to generate lot of dummy data in order to test performances of various web ui.
+This script is used to generate lot of dummy data in order to test performances of various web ui.
 
 It will create a release with sprints and stories, each stories breaken down in tasks.
 
