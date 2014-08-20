@@ -35,4 +35,4 @@ License
 
 GPLv2.
 
-Contributions welcomed.
+Contributions welcomed!
